@@ -13,3 +13,9 @@ apt-get install -y nodejs
 # Versionen überprüfen
 node -v
 npm -v
+
+# Pi-Coding-Agent global über NPM installieren
+npm install -g @earendil-works/pi-coding-agent
+
+# Installation testen
+pi --help
