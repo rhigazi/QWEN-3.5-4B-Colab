@@ -20,5 +20,5 @@ npm install -g @earendil-works/pi-coding-agent
 # Installation testen
 pi --help
 
-!pip install sse-starlette uvicorn fastapi pydantic pydantic-settings
-!pip install "llama-cpp-python[server]" --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu125
+pip install sse-starlette uvicorn fastapi pydantic pydantic-settings
+pip install "llama-cpp-python[server]" --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu125
